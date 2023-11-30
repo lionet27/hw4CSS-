@@ -201,8 +201,9 @@ summary {
   padding: 13px 17px 16px 17px;
 }
 .registraition__formButton:hover {
-  color: blue;
-  background-color: goldenrod;
+  color: #F16D7F;
+  background-color: white;
+  transition: 2s;
 }
 .registraition__formSVG {
   margin-left: 20px;
@@ -338,8 +339,9 @@ summary {
   height: 49px;
 }
 .review__subscribe__button:hover {
-  color: blue;
-  background-color: goldenrod;
+  color: #F16D7F;
+  background-color: white;
+  transition: 2s;
 }
 
 .above-footer {

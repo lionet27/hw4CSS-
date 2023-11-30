@@ -7,6 +7,8 @@ $colorRegistration:#A4A4A4;
 
 $fontFamilySite:Lato;
 $widthBurgerMenu:232px;
+$transitionSite:2s;
+
 @mixin flexSBcenter($gap) {
     display: flex;
     justify-content: space-between;
@@ -236,9 +238,10 @@ summary{
         line-height: normal;
         padding: 13px 17px 16px 17px;
         &:hover {
-            color: $colorHover;
-            background-color: goldenrod;
-    }
+            color: $colorSite;
+            background-color: white;
+            transition: $transitionSite;
+        }
 
     }
     &__formSVG{
@@ -388,9 +391,10 @@ summary{
             border: 1px solid $colorSite;
             height: 49px;
             &:hover {
-                color: $colorHover;
-                background-color: goldenrod;
-        }
+                color: $colorSite;
+                background-color: white;
+                transition: $transitionSite;
+            }
 
         }
         
